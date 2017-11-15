@@ -15,7 +15,7 @@ cp go.properties <scite path>/
 
 ## go.properties
 
-Here is details for go.properties, no change for standard Go installation, need to change own Go path for portable Go.
+Here is details for go.properties, no change needed for standard Go installation, need to change own Go path for portable Go.
 
 ```
 # Define SciTE settings for Go files
