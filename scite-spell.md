@@ -17,7 +17,7 @@ extract and copy above stuff to scite root folder, only needs default US English
 ## spell check config in scite
 only this line needed in SciTEGlobal.properties or SciTEUser.properties, to tell which is lua start script.
 ```
-#  spell  check
+#  spell check
 ext.lua.startup.script=$(SciteDefaultHome)\extman.lua
 ```
 
