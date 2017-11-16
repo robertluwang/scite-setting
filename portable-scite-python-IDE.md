@@ -1,5 +1,5 @@
 ## Scite
-Scite is most lightweight editor and portable by nature, it is my favorite quick note and code for long time, only 3MB.
+Scite is most lightweight editor and portable by nature, it is my favorite quick note and code for long time, less than 3MB.
 
 Here show you how to use scite as lightweight python IDE.
 
@@ -10,21 +10,16 @@ You can download from my [github](https://github.com/robertluwang/scite) and qui
 git clone git@github.com:robertluwang/scite.git
 cd scite
 cp SciTEGlobal.properties <scite path>/
-cp python.properties <scite path>/
 ```
 
 ## what changed to python.properties
 scite already supports python, here just some small changes to make it more nice.
 - string in red or pink, not comfortable for me so changed to #246161, you can pick up one from [HTML Color Picker](http://www.rapidtables.com/web/color/color-picker.htm)
 - python path, you need to setup own portable path if it is not standard installation in windows
-- append below setting to end of python.properties, will override original python property setting
+- append below setting to end of SciTEGlobal.properties or SciTEUser.properties
 
 ```
-
-# own python property 
-# append to end of python.properties 
-# Robert Wang
-# Nov 15, 2017
+# Python
 
 # Keyword
 style.python.5=fore:#3060A0,bold
