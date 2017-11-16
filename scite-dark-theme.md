@@ -257,7 +257,7 @@ style.python.7=fore:#246161
 #command.go.*.pyw=C:\oldhorse\portableapps\python\PortablePython2.7.5.1\App\pythonw -u "$(FileNameExt)"
 #command.1.$(file.patterns.py)=C:\oldhorse\portableapps\python\PortablePython2.7.5.1\App\python -c "import py_compile; py_compile.compile(r'$(FilePath)')"
 
-#  spell  check
+#  spell check
 ext.lua.startup.script=$(SciteDefaultHome)\extman.lua
 
 ```
