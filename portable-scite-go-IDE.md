@@ -1,5 +1,5 @@
 ## Scite
-Scite is most lightweight editor and portable by nature, it is my favorite quick note and code for long time, only 3MB.
+Scite is most lightweight editor and portable by nature, it is my favorite quick note and code for long time, less than 3MB.
 
 Here is show you how to use scite as lightweight Go IDE.
 
