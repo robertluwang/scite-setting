@@ -1,5 +1,5 @@
 ## Scite
-Scite is most lightweight editor and portable by nature, it is my favorite quick note and code for long time, only 3MB.
+Scite is most lightweight editor and portable by nature, it is my favorite quick note and code for long time, less than 3MB.
 
 ## scite dark theme
 Here is scite dark theme, I adopted from some old web post.
@@ -9,8 +9,12 @@ You can append to end of SciTEGlobal.properties or place to SciTEUser.properties
 ```
 ###
 #  scite dark theme
-#  append to end of SciTEGlobal.properties
+#  append to end of SciTEGlobal.properties 
 #  or place to SciTEUser.properties
+#  features:
+#  - scite dark theme
+#  - python/Go/markdown dark theme
+#  - spell checker
 #  Robert Wang
 #  Nov 15, 2017
 
@@ -22,14 +26,14 @@ wrap=1
 line.margin.visible=1
 statusbar.visible=1
 
-#  add  Go 
+#  add Go/markdown 
 source.files=*.asm;*.c;*.cc;*.cpp;*.cxx;*.cs;*.h;*.hh;*.hxx;*.hpp;\
 *.idl;*.odl;*.rc;*.rc2;*.dlg;*.def;\
 *.vb;*.vbs;*.bas;*.frm;*.cls;*.ctl;\
-*.java;*.js;*.go;*.py;*.pyw;*.pl;*.rb;*.cgi;*.lua;*.conf;\
+*.java;*.js;*.py;*.pyw;*.pl;*.rb;*.cgi;*.lua;*.conf;\
 make*;*.mak;\
 *.properties;*.html;*.xml;*.iface;*.bat;*.e;*.m;*.mm;\
-*.sh;*.patch
+*.sh;*.patch;*.go;*.md
 
 # Misc colours
 fold.margin.colour=#505050
@@ -232,6 +236,29 @@ style.errorlist.32=$(font.small),back:#000000
 style.errorlist.0=fore:#FFFFFF
 style.errorlist.2=fore:#0FFFFF
 style.errorlist.4=fore:#FFFFFF
+
+# Python
+
+# Keyword
+style.python.5=fore:#3060A0,bold
+
+# String
+style.python.3=fore:#246161,$(font.monospace)
+# Single quoted string
+style.python.4=fore:#246161,$(font.monospace)
+
+# Triple quotes
+style.python.6=fore:#246161
+# Triple double quotes
+style.python.7=fore:#246161
+
+# python path sample, change to your own python path and uncomment below lines; otherwise assume it is standard installation on Windons
+#command.go.*.py=C:\oldhorse\portableapps\python\PortablePython2.7.5.1\App\pythonw -u "$(FileNameExt)"
+#command.go.*.pyw=C:\oldhorse\portableapps\python\PortablePython2.7.5.1\App\pythonw -u "$(FileNameExt)"
+#command.1.$(file.patterns.py)=C:\oldhorse\portableapps\python\PortablePython2.7.5.1\App\python -c "import py_compile; py_compile.compile(r'$(FilePath)')"
+
+#  spell  check
+ext.lua.startup.script=$(SciteDefaultHome)\extman.lua
 
 ```
 
