@@ -263,7 +263,7 @@ ext.lua.startup.script=$(SciteDefaultHome)\extman.lua
 ```
 
 ## how to get from github
-You also can download from my [github](https://github.com/robertluwang/scite) and quick replaces your scite theme. Please backup your SciTEGlobal.properties if you have some change on it.
+You also can download from my [github](https://github.com/robertluwang/scite-setting) and quick replaces your scite theme. Please backup your SciTEGlobal.properties if you have some change on it.
 
 ```
 git clone git@github.com:robertluwang/scite.git
