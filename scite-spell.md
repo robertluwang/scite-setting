@@ -3,7 +3,7 @@ It is simplified spell check tool orthospell installation for scite.
 Based on: Urs Eberle's orthospell http://tools.diorama.ch/orthospell.html (GNU GPL v2).
 
 ## download spell-check bundle
-download [scite-spell.zip](https://github.com/robertluwang/scite/blob/master/scite-spell.zip), it includes:
+download [scite-spell.zip](https://github.com/robertluwang/scite-setting/blob/master/scite-spell.zip), it includes:
 ```
 scite_lua\orthospell.lua
 en_US.aff  
