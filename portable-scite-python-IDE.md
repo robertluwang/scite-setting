@@ -4,10 +4,10 @@ Scite is most lightweight editor and portable by nature, it is my favorite quick
 Here show you how to use scite as lightweight python IDE.
 
 ## scite + python dark theme
-You can download from my [github](https://github.com/robertluwang/scite) and quick replaces your scite theme. Please backup your SciTEGlobal.properties if you have some change on it.
+You can download from my [github](https://github.com/robertluwang/scite-setting) and quick replaces your scite theme. Please backup your SciTEGlobal.properties if you have some change on it.
 
 ```
-git clone git@github.com:robertluwang/scite.git
+git clone git@github.com:robertluwang/scite-setting.git
 cd scite
 cp SciTEGlobal.properties <scite path>/
 ```
