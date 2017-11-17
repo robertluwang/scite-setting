@@ -4,5 +4,5 @@
 - spell checker
 
 ## Installation
-- download [scite.zip](https://github.com/robertluwang/scite/blob/master/scite.zip)
+- download [scite.zip](https://github.com/robertluwang/scite-setting/blob/master/scite.zip)
 - extract scite folder to anyplace 
